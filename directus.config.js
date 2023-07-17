@@ -26,7 +26,7 @@ module.exports = function (env) {
         STORAGE_S3_SECRET: Encswj/SGZ0oXSBguoYYTroZG4dgzZ0SXz/pB0/5,
         STORAGE_S3_BUCKET: charles-cantin,
         STORAGE_S3_REGION: eu-west-3,
-        STORAGE_S3_ACL: private
+        STORAGE_S3_ACL: private,
 
         CORS_ENABLED: "true",
         CORS_ORIGIN: "true"

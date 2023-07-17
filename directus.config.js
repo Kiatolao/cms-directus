@@ -22,11 +22,11 @@ module.exports = function (env) {
         DB_USER: env.PGUSER,
         DB_PASSWORD: env.PGPASSWORD,
 
-        STORAGE_S3_KEY:	AKIAWJE2OQ3YDIV4VXN4,
-        STORAGE_S3_SECRET: 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,
-        STORAGE_S3_BUCKET: charles-cantin,
-        STORAGE_S3_REGION: eu-west-3,
-        STORAGE_S3_ACL: private,
+        STORAGE_AWS_KEY:	AKIAWJE2OQ3YDIV4VXN4,
+        STORAGE_AWS_SECRET: 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,
+        STORAGE_AWS_BUCKET: charles-cantin,
+        STORAGE_AWS_REGION: eu-west-3,
+        STORAGE_AWS_ACL: private,
 
         CORS_ENABLED: "true",
         CORS_ORIGIN: "true"
